@@ -1,0 +1,113 @@
+.navbar3{
+  height: 70px;
+  background-color: black;
+}
+.navbar3 ul{
+  color: black;
+  float: right;
+  margin-right: 20px;
+  margin-top: 22px;
+}
+.navbar3 ul li{
+  list-style: none;
+  margin-right: 0.1px;
+  display: inline-block;
+}
+.navbar3 ul li a{
+  margin-left: 20px;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  padding: 5px 10px 5px 10px;
+  transition: 0.3s;
+
+}
+.navbar3 ul li a.Active,
+.navbar3 ul li a:hover{
+  background: red;
+  border-radius: 2px;
+}
+.Maindiv{
+  background-color: red;
+  height: 460px;
+  background-image: url("moneyheist.png");
+  background-position: center;
+  background-size: cover;
+  animation:slider 20s infinite linear;
+}
+@keyframes slider {
+  0%{
+
+    background-image: url("SG.png");
+    background-size: cover;
+    background-position: center;
+  }
+  35%{
+
+    background-image: url("you.png");
+    background-size: cover;
+    background-position: center;
+  }
+  70%{
+
+    background-image: url("p.png");
+    background-size: cover;
+    background-position: center;
+  }
+  100%{
+
+    background-image: url("dark.png");
+    background-size: cover;
+    background-position: center;
+  }
+  100%{
+    background-image: url("moneyheist.png");
+    background-size: cover;
+    background-position: center;
+  }
+}
+p{
+  font-size: 45px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+  padding-top: 10px;
+  padding-bottom:10px;
+  padding-left: 30px;
+  font-weight: bold;
+}
+h1{
+  font-size: 45px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+  padding-top: 10px;
+  padding-bottom:10px;
+  padding-left: 30px;
+  font-weight: bold;
+
+}
+footer{
+  color: white;
+  background-color: black;
+  padding: 30px 10px 20px 10px;
+  text-align: center;
+  letter-spacing: 20px;
+  text-shadow: 2px white;
+  height: 40px;
+  font-size: 20px;
+  font-family: monospace;
+  font-weight: bolder;
+
+
+}
+table tr img{
+  transition: 10s;
+}
+.search{
+  float: left;
+  background-color: black;
+  height: 20px;
+}

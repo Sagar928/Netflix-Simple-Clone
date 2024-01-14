@@ -1,0 +1,62 @@
+.bg{
+  background-image: url("netflix.png");
+  height: 100vh;
+}
+.navbar nav{
+  height: 70px;
+  width: 100%;
+  background: black;
+}
+.banking{
+  position: absolute;
+  top: 20%;
+  left: 32%;
+  width: 600px;
+  height: 500px;
+  background-color: rgba(1,1,1,0.8);
+  box-sizing: border-box;
+  box-shadow: 5px 10px black;
+}
+.banking h1{
+  text-align: center;
+  padding-bottom: 5px;
+  color: white;
+  text-shadow: 1px 1px #ADFF2F;
+}
+.banking h2,h3{
+  color: #FFD700;
+  margin-left: 20px;
+}
+.banking input[type=text]{
+  margin-left: 80px;
+  margin-bottom: 20px;
+  padding: 5px 5px 5px 5px;
+}
+::placeholder{
+  font-weight: bold;
+}
+.banking p{
+  margin-left: 80px;
+  color: white;
+  font-size: 20px;
+}
+.banking select{
+  margin-left: 80px;
+  font-family: Arial;
+  background-color: lightblue;
+
+}
+.banking input[type=submit]{
+  margin-top: 20px;
+  height: 40px;
+  width: 200px;
+  background-color: lightblue;
+  font-size: 17px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.banking a
+{
+  margin-left: 80px;
+  color: #FAFAD2;
+}

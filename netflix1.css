@@ -1,0 +1,66 @@
+.Wrapper{
+  background-image: url("tommy.png");
+  background-repeat: no-repeat;
+  height: 95vh;
+  width: 700vh;
+}
+.navbar{
+  height: 90px;
+  width: 100%;
+  background: rgba(0,0,0,0.3);
+}
+
+.navbar button{
+  background-color: black;
+  color: white;
+  border-color: red;
+  padding: 10px 15px 10px 15px;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.navbar img{
+  position: absolute;
+  left: 90%;
+  top: 3%;
+}
+.Middle h1{
+  position: absolute;
+  top: 25%;
+  left: 35%;
+  color: white;
+  font-size: 50px;
+  font-family: sans-serif;
+}
+.Middle h2{
+  color: white;
+  font-size: 25px;
+  font-family: sans-serif;
+  position: absolute;
+  top: 45%;
+  left: 36%;
+}
+.Middle input{
+  position: absolute;
+  top: 55%;
+  left: 36%;
+  width: 25%;
+  border: 1px solid;
+  border-radius: 4px;
+  margin: 8px 0;
+  padding: 8px;
+  box-sizing: border-box;
+}
+.Middle input:focus{
+  border-color: red;
+  box-shadow: 0 0 8px 0 red;
+  transition: 1s;
+}
+.Middle button{
+  background-color: red;
+  color: white;
+  height: 35px;
+  width: 130px;
+  position: absolute;
+  top: 56.3%;
+  left: 66%;
+}
